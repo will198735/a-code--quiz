@@ -1,0 +1,66 @@
+/* body and header section */
+* {
+    /* background-color: rgb(72, 93, 131); */
+}
+body {
+    font-family:"Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif; 
+    background-color: cornflowerblue;
+    display: block;
+    margin: 80px auto;
+    text-align: center;
+    /* font-size: 30px; */
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100vw;
+    padding-top: 20px;
+
+}
+.header {
+    background-color: rgb(109, 98, 91);
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+   
+
+.view_h {
+    color: rgb(235, 162, 162);
+    text-align: left; 
+    margin: 0px;
+    padding: 0px;
+}
+.timer {
+    color:rgb(235, 162, 162); 
+    text-align: right;
+    padding-top: 0px;
+    margin-top: 0px;
+    
+}
+ /* start button ssection */
+ .start-btn {
+    background: #13293d;
+    color: white;
+    padding: 8px;
+    margin: 100px;
+    text-align: center;
+flex: 0 auto;
+border-radius: 8px;
+
+
+
+ }
+ button {
+    background-color: rgb(228, 133, 133);
+    border-radius: 8px;
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.20px;
+    line-height: 16px;
+    max-width: 255px;
+    padding: 7px;
+    text-align: center;
+
+ }
+
+
