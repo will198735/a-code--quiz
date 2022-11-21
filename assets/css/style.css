@@ -2,9 +2,9 @@
 * {
     /* background-color: rgb(72, 93, 131); */
 }
-body {
+main {
     font-family:"Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif; 
-    background-color: cornflowerblue;
+    background-color: rgb(145, 153, 168);
     display: block;
     margin: 80px auto;
     text-align: center;
@@ -16,22 +16,23 @@ body {
 
 }
 .header {
-    background-color: rgb(109, 98, 91);
+    /* background-color: rgb(109, 98, 91); */
+    
     padding: 0px;
     margin: 0px;
-    border: 1px solid;
-    border-radius: 8px;
+    /* border: 1px solid; */
+    /* border-radius: 8px; */
 }
    
 
 .view_h {
-    color: rgb(235, 162, 162);
+    color: rgb(12, 11, 11);
     text-align: left; 
     margin: 0px;
     padding: 0px;
 }
 .timer {
-    color:rgb(235, 162, 162); 
+    color:rgb(17, 17, 17); 
     text-align: right;
     padding-top: 0px;
     margin-top: 0px;
@@ -39,16 +40,21 @@ body {
 }
  /* start button ssection */
  .start-btn {
-    background: #13293d;
+    background: #506170;
     color: white;
     padding: 8px;
-    margin: 100px;
+    margin: 20px;
     text-align: center;
 flex: 0 auto;
 border-radius: 8px;
 
-
-
+ }
+ .start-quiz {
+    display: inline; 
+    text-align: center;
+    
+  
+  
  }
  button {
     background-color: rgb(228, 133, 133);
@@ -60,7 +66,19 @@ border-radius: 8px;
     max-width: 255px;
     padding: 7px;
     text-align: center;
+    display: block;
 
  }
+/* questin  sectin */
+.questions {
 
+    display: block;
+    background: #506170;
+    color: white;
+    padding: 8px;
+    margin: 20px;
+    text-align: center;
+flex: 0 auto;
+border-radius: 8px;
+}
 
