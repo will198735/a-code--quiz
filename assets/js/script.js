@@ -1,7 +1,27 @@
 // select element by class
-var timeEl = document.querySelector(".timer-a")
+var timerEl = document.querySelector('.timeh3');
+var timerCountEl = document.getElementById('main')
 
-// selects element by id
 var secondsLeft = 10;
 
-function set
+
+function setTime() {
+    var TimerInterval = setInterval(function() {
+
+        secondsLeft--;
+        timerEl.textContent = secondsLeft + "timer";
+    
+
+        if(secondsLeft === 0) {
+            clearInterval(TimerInterval);
+            sendMessage();
+        }
+
+    }, 1000); 
+
+  
+}
+function sendMessage() {
+    timerEl.textContent =" ";
+}
+setTime();

@@ -16,29 +16,21 @@ main {
 
 }
 .header {
-    /* background-color: rgb(109, 98, 91); */
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
     
-    padding: 0px;
-    margin: 0px;
-    /* border: 1px solid; */
-    /* border-radius: 8px; */
 }
    
 
-.view_h {
+/* .view_h {
     color: rgb(12, 11, 11);
     text-align: left; 
     margin: 0px;
     padding: 0px;
-}
-.timer {
-    color:rgb(17, 17, 17); 
-    text-align: right;
-    padding-top: 0px;
-    margin-top: 0px;
-    font-size: 2em;
-    
-}
+} */
+/* .timer {
+
  /* start button ssection */
  .start-btn {
     background: #506170;
@@ -98,3 +90,5 @@ border-radius: 8px;
    
 }
 
+
+    
